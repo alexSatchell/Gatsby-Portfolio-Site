@@ -19,7 +19,7 @@ const Salist = () => {
       <ArticleContainer>
         <Title>Salist</Title>
         <Date>June 2020</Date>
-        <ExternalLink target="_blank" href="https://www.google.com">
+        <ExternalLink target="_blank" href="alexmsatchell.com">
           Live Demo
         </ExternalLink>
         <Article>
