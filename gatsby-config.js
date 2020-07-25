@@ -10,5 +10,5 @@ module.exports = {
     description: `Portfolio of Alex Satchell - Front End Web Developer`,
     author: `@alexsatchell`,
   },
-  // plugins: [`gatsby-plugin-styled-components`],
+  plugins: [`gatsby-plugin-styled-components`],
 }
