@@ -6,4 +6,9 @@ export const ExternalLink = styled.a`
   color: ${COLORS.accentBlue};
   text-decoration: none;
   border-bottom: 0.15rem solid ${COLORS.accentPeach};
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    color: ${COLORS.articleFont};
+  }
 `

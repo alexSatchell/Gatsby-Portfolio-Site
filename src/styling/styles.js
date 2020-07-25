@@ -10,7 +10,12 @@ export const COLORS = {
   articleFont: "#474747",
 }
 
-export const QUERIES = {}
+export const QUERIES = {
+  large: `max-width: 1200px`,
+  medium: `max-width: 1000px`,
+  small: `max-width: 600px`,
+  xsmall: `max-width: 450px`,
+}
 
 export const FONTS = {
   main: `'Libre Baskerville', serif`,

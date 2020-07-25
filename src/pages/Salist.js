@@ -19,7 +19,7 @@ const Salist = () => {
       <ArticleContainer>
         <Title>Salist</Title>
         <Date>June 2020</Date>
-        <ExternalLink target="_blank" href="alexmsatchell.com">
+        <ExternalLink target="_blank" href="https://salist.netlify.app/">
           Live Demo
         </ExternalLink>
         <Article>
@@ -49,9 +49,9 @@ const Salist = () => {
             <strong>No love from the Like Button</strong>
           </Paragraph>
           <Paragraph>
-            When things don't go according to plan, (and I've already reset the
-            terminal) the one phrase that usually helps me uncover the issue is
-            this: <strong>it's all my fault.</strong>
+            When things don't go according to plan, (and I've already refreshed
+            the browser) the one phrase that usually helps me uncover the issue
+            is this: <strong>it's all my fault.</strong>
           </Paragraph>
           <Image src={catMeme} width={"70%"} alt="cat meme" />
           <Paragraph>
@@ -84,6 +84,17 @@ const Salist = () => {
               grey areas when dealing with the storage of large uploads such as
               images and audio files, from my understanding GridFS can resolve
               these issues, however, I have not yet fully grasped it.
+            </ListItem>
+            <ListItem>
+              <strong>Security For Users</strong>: While the algorithms and
+              techniques currently in place to securely store user data do work,
+              they are not professional. In the future, I would like to look
+              into potentially outsourcing this task to a 3rd party product such
+              as{" "}
+              <ExternalLink target="_blank" href="https://auth0.com/">
+                Auth0
+              </ExternalLink>{" "}
+              to instill a better sense of security to the end user.
             </ListItem>
           </UnorderedList>
           <Paragraph margin={"2rem 0 0 0 "}>

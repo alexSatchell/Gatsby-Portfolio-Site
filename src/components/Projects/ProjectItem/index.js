@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import {
   ProjectContainer,
   ProjectTitle,
@@ -7,10 +7,9 @@ import {
   Description,
   Date,
 } from "./styles"
-import { Paragraph } from "../../Typography/Paragraph"
 
 const ProjectItem = ({ project }) => {
-  const { name, description, date, photo } = project
+  const { name, description, date } = project
 
   return (
     <ProjectContainer>

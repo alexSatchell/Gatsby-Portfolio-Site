@@ -1,17 +1,24 @@
 import styled, { keyframes } from "styled-components"
-import { FONTS, COLORS } from "../../styling/styles"
+import { FONTS, COLORS, QUERIES } from "../../styling/styles"
 
 export const AboutContainer = styled.div`
   grid-column: center-start / center-end;
   grid-row: 2;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
   align-items: flex-end;
   justify-content: center;
   padding-right: 20%;
 
-  /* border: 1px solid black; */
+  @media (${QUERIES.medium}) {
+    align-items: center;
+    padding: 0;
+  }
+
+  @media (${QUERIES.small}) {
+    width: 100%;
+    margin: 0 auto;
+  }
 `
 
 const loadInAnimation = keyframes`
@@ -28,9 +35,18 @@ const loadInAnimation = keyframes`
 `
 
 export const InfoPanel = styled.div`
-  /* border: 1px solid black; */
   padding: 1rem;
   width: 42rem;
+  /* border: 1px solid black; */
+  @media (${QUERIES.small}) {
+    width: 35rem;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const Name = styled.h1`
@@ -39,6 +55,10 @@ export const Name = styled.h1`
   font-weight: 400;
   animation-name: ${loadInAnimation};
   animation-duration: 1.2s;
+
+  @media (${QUERIES.small}) {
+    font-size: 3rem;
+  }
 `
 
 export const Title = styled.h3`
@@ -48,6 +68,10 @@ export const Title = styled.h3`
   margin-top: 0.2rem;
   animation-name: ${loadInAnimation};
   animation-duration: 1.2s;
+
+  @media (${QUERIES.small}) {
+    font-size: 1.6rem;
+  }
 `
 
 export const Dot = styled.span`
@@ -62,10 +86,19 @@ export const TitleUnderline = styled.hr`
   border: 0.08rem solid ${COLORS.accentColor};
   animation-name: ${loadInAnimation};
   animation-duration: 1.2s;
+
+  @media (${QUERIES.small}) {
+    display: none;
+  }
 `
 
 export const SummaryContainer = styled.div`
   width: 100%;
   animation-name: ${loadInAnimation};
   animation-duration: 1.2s;
+
+  @media (${QUERIES.small}) {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
 `

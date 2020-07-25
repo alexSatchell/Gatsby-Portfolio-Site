@@ -8,6 +8,10 @@ export const ProjectContainer = styled.div`
   flex-direction: column;
   width: max-content;
   color: ${COLORS.fontColor};
+
+  @media (${QUERIES.small}) {
+    width: 100%;
+  }
 `
 
 const loadInAnimation = keyframes` 

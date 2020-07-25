@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { QUERIES } from "../styling/styles"
 import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import GlobalStyles from "../styling/global"
@@ -22,6 +23,14 @@ const Container = styled.div`
   grid-row-gap: 10rem;
   margin: 0 auto;
   max-width: 1200px;
+  @media (${QUERIES.large}) {
+    padding: 5rem 10rem 1rem 10rem;
+  }
+
+  @media (${QUERIES.small}) {
+    padding: 1rem;
+    grid-row-gap: 2rem;
+  }
 `
 
 export default function Home() {

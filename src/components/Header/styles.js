@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components"
-import { FONTS, COLORS } from "../../styling/styles"
+import { FONTS, COLORS, QUERIES } from "../../styling/styles"
 
 export const HeaderContainer = styled.div`
   /* border: 1px solid black; */
@@ -11,6 +11,16 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (${QUERIES.small}) {
+    width: 100%;
+  }
+
+  @media (${QUERIES.xsmall}) {
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+  }
 `
 
 export const LinkPanel = styled.div``
@@ -34,6 +44,9 @@ export const Logo = styled.h1`
   letter-spacing: 0.2rem;
   animation-name: ${loadInAnimation};
   animation-duration: 0.8s;
+
+  @media (${QUERIES.small}) {
+  }
 `
 
 export const Dot = styled.span`

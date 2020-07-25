@@ -28,10 +28,9 @@ const ProjectState = props => {
       },
       {
         id: uuidv4(),
-        name: "Salist",
-        description:
-          "A social platform for music sharing, focused on small artist.",
-        date: "June 2020",
+        name: "Graveyard",
+        description: "A resting place for past projects, some young some old.",
+        date: "2018 - present ",
         githubUrl: "",
         photo: "",
         techStack: ["React", "Node", "Express", "MongoDB"],
