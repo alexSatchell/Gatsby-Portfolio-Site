@@ -11,6 +11,7 @@ export const ProjectContainer = styled.div`
 
   @media (${QUERIES.small}) {
     width: 100%;
+    justify-content: center;
   }
 `
 
@@ -67,6 +68,11 @@ export const ProjectTitle = styled(Link)`
 export const NameDateContainer = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (${QUERIES.small}) {
+    justify-content: flex-start;
+    align-items: center;
+  }
 `
 
 export const Description = styled.p`
@@ -75,6 +81,14 @@ export const Description = styled.p`
   font-weight: 300;
   animation-name: ${loadInAnimation};
   animation-duration: 0.6s;
+
+  @media (${QUERIES.small}) {
+    width: 100%;
+  }
+
+  @media (${QUERIES.xsmall}) {
+    width: 80%;
+  }
 `
 
 export const Date = styled.p`
@@ -82,9 +96,16 @@ export const Date = styled.p`
   font-weight: 400;
   font-size: 1.2rem;
   color: ${COLORS.date};
-  position: relative;
   display: inline-block;
 
   animation-name: ${loadInAnimation};
   animation-duration: 0.6s;
+
+  @media (${QUERIES.small}) {
+    margin-left: 0.2rem;
+
+    &::before {
+      content: "- ";
+    }
+  }
 `

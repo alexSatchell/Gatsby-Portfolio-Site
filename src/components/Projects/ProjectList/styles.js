@@ -9,7 +9,6 @@ export const ProjectListContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  /* border: 1px solid black; */
 
   @media (${QUERIES.small}) {
     align-items: center;
@@ -18,9 +17,7 @@ export const ProjectListContainer = styled.div`
   }
 
   @media (${QUERIES.xsmall}) {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    grid-column: 3 / -3;
   }
 `
 

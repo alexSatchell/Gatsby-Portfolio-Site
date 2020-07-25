@@ -14,12 +14,7 @@ export const HeaderContainer = styled.div`
 
   @media (${QUERIES.small}) {
     width: 100%;
-  }
-
-  @media (${QUERIES.xsmall}) {
-    width: 80%;
-    /* border: 1px solid black; */
-    margin: 0 auto;
+    justify-content: space-around;
   }
 `
 
