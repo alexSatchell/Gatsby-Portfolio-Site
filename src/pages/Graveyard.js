@@ -6,7 +6,7 @@ import { ExternalLink } from "../components/Article/ExternalLink"
 import { Article } from "../components/Article/ArticleContainer"
 import { Paragraph } from "../components/Article/Paragraph"
 import { Image } from "../components/Article/Image"
-import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
+// import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 import Navigation from "../components/Article/Navigation"
 
 import coffeeRoasters from "../images/coffeeRoasters.jpg"

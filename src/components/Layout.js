@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { COLORS, QUERIES } from "../styling/styles"
+import { COLORS } from "../styling/styles"
 
 const Layout = styled.div`
   min-height: 100vh;

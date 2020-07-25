@@ -10,7 +10,7 @@ import Navigation from "../components/Article/Navigation"
 
 import dangerMeme from "../images/dangerMeme.jpg"
 import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
-import { InternalLink } from "../components/Article/InternalLink"
+// import { InternalLink } from "../components/Article/InternalLink"
 
 const Asteroids = () => {
   return (
