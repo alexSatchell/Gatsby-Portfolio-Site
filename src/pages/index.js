@@ -37,12 +37,7 @@ export default function Home() {
   return (
     <ProjectState>
       <Layout>
-        <Helmet>
-          {/* <link
-            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito:wght@200;300;400&display=swap"
-            rel="stylesheet"
-          /> */}
-        </Helmet>
+        <Helmet></Helmet>
         <GlobalStyles />
         <Container>
           <Header />

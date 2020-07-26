@@ -37,7 +37,7 @@ export const Logo = styled.h1`
   font-size: 4rem;
   font-family: ${FONTS.main};
   letter-spacing: 0.2rem;
-  /* animation-name: ${loadInAnimation}; */
+  animation-name: ${loadInAnimation};
   animation-duration: 0.8s;
 
   @media (${QUERIES.small}) {

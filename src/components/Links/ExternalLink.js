@@ -23,7 +23,7 @@ export const ExternalLink = styled.a`
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  /* animation-name: ${loadInAnimation}; */
+  animation-name: ${loadInAnimation};
   animation-duration: 1.2s;
 
   &:after {
