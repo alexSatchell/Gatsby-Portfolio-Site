@@ -11,6 +11,7 @@ import Navigation from "../components/Article/Navigation"
 
 import coffeeRoasters from "../images/coffeeRoasters.jpg"
 import thinkful from "../images/thinkful.png"
+import vof from "../images/visionsOfFlight.jpg"
 
 const Graveyard = () => {
   return (
@@ -21,9 +22,7 @@ const Graveyard = () => {
         <Date>2018 - Present</Date>
         <Paragraph>
           Though not always the most appealing, every project here has served as
-          a monumental stepping stone in my growth as a developer. I believe it
-          is vital to document your programming journey and can help prevent the
-          inevitable "imposter syndrome" we all face.
+          a monumental stepping stone in my growth as a developer.
         </Paragraph>
         <Article>
           <Paragraph>
@@ -54,9 +53,9 @@ const Graveyard = () => {
           </ExternalLink>
           <Paragraph>
             Thinkful was a fun little project I built after getting a solid
-            understanding of flexbox. Thinkful is essentially a glorified
+            understanding of flexbox. Thinkful is essentially just a glorified
             'todo-list' that utilizes local storage to save state but does have
-            a cool div animation if you ask me.
+            a pretty cool div animation if you ask me.
           </Paragraph>
           <Image src={thinkful} width={"100%"} />
           <Paragraph margin={"5rem 0 0 0 "}>
@@ -70,14 +69,13 @@ const Graveyard = () => {
             Live Demo
           </ExternalLink>
           <Paragraph>
-            Stumbling across this project is a trip through time as it was my
-            first web design project for a client. Despite it's obvious
-            shortcomings, It brings me alot of joy to reflect upon the hours
-            spent struggling to implement seemingly minute features, knowing the
-            plethura of knowledge I walked away with in the end. Visions Of
-            Flight without a doubt was a without a doubt the moment I knew I
-            wanted spend the rest of my life creating.
+            Stumbling across this site is a trip through time, as it was my
+            first project done for a client. Despite its shortcomings, it brings
+            me a lot of joy to reflect upon the hours spent struggling to
+            implement seemingly minute features, knowing the plethora of
+            knowledge I walked away with.
           </Paragraph>
+          <Image src={vof} width={"100%"} />
         </Article>
       </ArticleContainer>
     </>

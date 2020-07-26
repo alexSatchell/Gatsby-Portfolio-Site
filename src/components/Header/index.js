@@ -16,7 +16,7 @@ const Header = () => {
         >
           Github
         </ExternalLink>
-        <InteralLink margin={"auto 2rem"} fontSize={"1.5rem"} to="/">
+        <InteralLink margin={"auto 2rem"} fontSize={"1.5rem"} to="/Blog">
           Blog
         </InteralLink>
       </LinkPanel>
