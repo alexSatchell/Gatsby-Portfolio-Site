@@ -38,10 +38,10 @@ export default function Home() {
     <ProjectState>
       <Layout>
         <Helmet>
-          <link
+          {/* <link
             href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito:wght@200;300;400&display=swap"
             rel="stylesheet"
-          />
+          /> */}
         </Helmet>
         <GlobalStyles />
         <Container>
