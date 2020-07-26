@@ -14,6 +14,7 @@ import { Paragraph } from "../Typography/Paragraph"
 // import { FaCode } from "react-icons/fa"
 
 const About = () => {
+  console.log("rendered")
   return (
     <AboutContainer>
       <InfoPanel>
