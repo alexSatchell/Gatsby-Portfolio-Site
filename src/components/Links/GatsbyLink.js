@@ -26,7 +26,7 @@ export const InteralLink = styled(Link)`
   transition: 0.1s ease-in-out;
   cursor: pointer;
   position: relative;
-  animation-name: ${loadInAnimation};
+  /* animation-name: ${loadInAnimation}; */
   animation-duration: 1.2s;
 
   &:after {

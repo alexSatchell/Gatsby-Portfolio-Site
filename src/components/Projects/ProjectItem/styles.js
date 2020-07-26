@@ -38,7 +38,7 @@ export const ProjectTitle = styled(Link)`
   font-weight: 400;
   cursor: pointer;
   position: relative;
-  animation-name: ${loadInAnimation};
+  /* animation-name: ${loadInAnimation}; */
   animation-duration: 0.6s;
 
   text-decoration: none;
@@ -79,7 +79,7 @@ export const Description = styled.p`
   font-family: ${FONTS.secondary};
   font-size: 1.4rem;
   font-weight: 300;
-  animation-name: ${loadInAnimation};
+  /* animation-name: ${loadInAnimation}; */
   animation-duration: 0.6s;
 
   @media (${QUERIES.small}) {
@@ -98,7 +98,7 @@ export const Date = styled.p`
   color: ${COLORS.date};
   display: inline-block;
 
-  animation-name: ${loadInAnimation};
+  /* animation-name: ${loadInAnimation}; */
   animation-duration: 0.6s;
 
   @media (${QUERIES.small}) {
