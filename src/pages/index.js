@@ -37,7 +37,28 @@ export default function Home() {
   return (
     <ProjectState>
       <Layout>
-        <Helmet></Helmet>
+        <Helmet>
+          <title>Alexaner Satchell | Front End Developer</title>
+          <meta
+            name="title"
+            content="Alexander Satchell | Front End Developer"
+          />
+          <meta
+            name="decscription"
+            content="At my core, I have always sought after and worked to improve the lives of others, whether it be professional, volunteering, or lending a hand to those in need. With technology, I try to place those same ideologies at the forefront of my work."
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://alexmsatchell.com" />
+          <meta
+            property="og:title"
+            content="Alexander Satchell | Front End Developer"
+          />
+          <meta
+            property="og:description"
+            content="At my core, I have always sought after and worked to improve the lives of others, whether it be professional, volunteering, or lending a hand to those in need. With technology, I try to place those same ideologies at the forefront of my work."
+          />
+          <meta />
+        </Helmet>
         <GlobalStyles />
         <Container>
           <Header />

@@ -102,7 +102,8 @@ const Asteroids = () => {
           <Paragraph>
             Building Asteroids introduced me to a couple of new JS libraries and
             helped me solve issues I had not yet faced. One of the libraries I
-            got to use on this project is <ExternalLink>MomentJS</ExternalLink>.
+            got to use on this project is{" "}
+            <ExternalLink href="https://momentjs.com/">MomentJS</ExternalLink>.
             Using Moment allowed me to easily parse, validate, and format the
             dates in my application. Overall building this application was a
             very rewarding experience as I got to work with some awesome data
