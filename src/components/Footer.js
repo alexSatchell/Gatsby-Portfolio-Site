@@ -9,6 +9,7 @@ const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   padding-left: 1rem;
+  font-size: 1.2rem;
 
   @media (${QUERIES.medium}) {
     width: 100%;

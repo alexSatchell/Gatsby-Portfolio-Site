@@ -6,4 +6,6 @@ export const Title = styled.h1`
   color: ${COLORS.fontColor};
   font-weight: 400;
   line-height: 80%;
+  font-size: 3.2rem;
+  margin: 2rem 0;
 `

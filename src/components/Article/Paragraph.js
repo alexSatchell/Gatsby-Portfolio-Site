@@ -5,7 +5,8 @@ export const Paragraph = styled.p`
   font-family: ${FONTS.secondary};
   color: ${COLORS.articleFont};
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 140%;
   margin: ${props => props.margin};
+  margin: 2rem 0 0 0;
 `

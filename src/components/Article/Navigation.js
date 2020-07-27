@@ -9,7 +9,7 @@ const Navigation = () => {
     <NavigationContainer>
       <InternalLink
         margin={"auto 2rem"}
-        fontSize={"1rem"}
+        fontSize={"1.6rem"}
         fontWeight={"300"}
         to="/"
       >

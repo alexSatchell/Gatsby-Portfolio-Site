@@ -7,6 +7,7 @@ import { Article } from "../components/Article/ArticleContainer"
 import { Paragraph } from "../components/Article/Paragraph"
 import { Image } from "../components/Article/Image"
 import Navigation from "../components/Article/Navigation"
+import GlobalStyles from "../styling/global"
 
 import dangerMeme from "../images/dangerMeme.jpg"
 import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
@@ -15,6 +16,7 @@ import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 const Asteroids = () => {
   return (
     <>
+      <GlobalStyles />
       <Navigation />
       <ArticleContainer>
         <Title>Asteroids</Title>
@@ -61,7 +63,7 @@ const Asteroids = () => {
             randomly moving objects all capable of colliding with Earth.
             Yikes...
           </Paragraph>
-          <Image src={dangerMeme} width={"80%"} />
+          <Image margin={"4rem auto"} src={dangerMeme} width={"80%"} />
           <Paragraph margin={"2rem 0 0 0 "}>
             <strong>Data Powered by NASA</strong>
           </Paragraph>
@@ -114,7 +116,7 @@ const Asteroids = () => {
             real-time synchronization of the game state.
           </Paragraph>
           <Paragraph>Until next time,</Paragraph>
-          <ExternalLink href="mailto:satchellalex@gmail.com">
+          <ExternalLink margin={"2rem 0"} href="mailto:satchellalex@gmail.com">
             Email
           </ExternalLink>
         </Article>

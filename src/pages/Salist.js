@@ -8,6 +8,7 @@ import { Paragraph } from "../components/Article/Paragraph"
 import { Image } from "../components/Article/Image"
 import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 import Navigation from "../components/Article/Navigation"
+import GlobalStyles from "../styling/global"
 
 import salistBrowserImage from "../images/salist.jpg"
 import catMeme from "../images/catMeme.jpg"
@@ -15,6 +16,8 @@ import catMeme from "../images/catMeme.jpg"
 const Salist = () => {
   return (
     <>
+      <GlobalStyles />
+
       <Navigation />
       <ArticleContainer>
         <Title>Salist</Title>
@@ -33,7 +36,7 @@ const Salist = () => {
             artists and music, that users could easily follow and save to their
             library.
           </Paragraph>
-          <Image src={salistBrowserImage} width={"80%"} />
+          <Image margin={"4rem auto"} src={salistBrowserImage} width={"80%"} />
           <Paragraph>
             <strong>Building the API</strong>
           </Paragraph>
@@ -53,7 +56,12 @@ const Salist = () => {
             the browser) the one phrase that usually helps me uncover the issue
             is this: <strong>it's all my fault.</strong>
           </Paragraph>
-          <Image src={catMeme} width={"70%"} alt="cat meme" />
+          <Image
+            margin={"4rem auto"}
+            src={catMeme}
+            width={"70%"}
+            alt="cat meme"
+          />
           <Paragraph>
             Where and at one point did I mislead the browser to display such
             incorrect, and disheartening results? It was while trying to get a

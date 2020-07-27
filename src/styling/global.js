@@ -8,16 +8,18 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        ${"" /* border: 1px solid black; */}
         }
 
     html {
         box-sizing: border-box;
         font-size: 62.5%; 
+
+        @media(${QUERIES.small}) {
+            font-size: 58%;
+                    }
     }
 
     body {
-        font-family: 'Roboto';
         font-weight: 400;
     }  
 `

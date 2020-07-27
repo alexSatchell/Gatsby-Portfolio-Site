@@ -8,4 +8,5 @@ export const Paragraph = styled.p`
   width: ${props => props.width};
   line-height: ${props => props.lineHeight};
   word-spacing: 60%;
+  width: 100%;
 `

@@ -6,6 +6,7 @@ import { ExternalLink } from "../components/Article/ExternalLink"
 import { Article } from "../components/Article/ArticleContainer"
 import { Paragraph } from "../components/Article/Paragraph"
 import { Image } from "../components/Article/Image"
+import GlobalStyles from "../styling/global"
 // import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 import Navigation from "../components/Article/Navigation"
 
@@ -16,6 +17,7 @@ import vof from "../images/visionsOfFlight.jpg"
 const Graveyard = () => {
   return (
     <>
+      <GlobalStyles />
       <Navigation />
       <ArticleContainer>
         <Title>The Graveyard</Title>
@@ -39,7 +41,7 @@ const Graveyard = () => {
             Coffee Roasters is a mock website I created for a coffee roasting
             company in the Finger Lakes region of NY.
           </Paragraph>
-          <Image src={coffeeRoasters} width={"100%"} />
+          <Image margin={"4rem 0 8rem 0"} src={coffeeRoasters} width={"100%"} />
 
           <Paragraph margin={"5rem 0 0 0 "}>
             <strong>Thinkful Online Journal</strong>
@@ -57,7 +59,7 @@ const Graveyard = () => {
             'todo-list' that utilizes local storage to save state but does have
             a pretty cool div animation if you ask me.
           </Paragraph>
-          <Image src={thinkful} width={"100%"} />
+          <Image margin={"4rem 0 8rem 0"} src={thinkful} width={"100%"} />
           <Paragraph margin={"5rem 0 0 0 "}>
             <strong>Visions Of Flight Music Group</strong>
           </Paragraph>
@@ -75,7 +77,7 @@ const Graveyard = () => {
             implement seemingly minute features, knowing the plethora of
             knowledge I walked away with.
           </Paragraph>
-          <Image src={vof} width={"100%"} />
+          <Image margin={"4rem 0 8rem 0"} src={vof} width={"100%"} />
         </Article>
       </ArticleContainer>
     </>
