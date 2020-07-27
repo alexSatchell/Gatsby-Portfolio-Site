@@ -118,7 +118,7 @@ const Salist = () => {
             If you have any suggestions or thougts please feel free to reach
             out.
           </Paragraph>
-          <ExternalLink href="mailto:satchellalex@gmail.com">
+          <ExternalLink margin={"2rem 0"} href="mailto:satchellalex@gmail.com">
             Email
           </ExternalLink>
         </Article>
