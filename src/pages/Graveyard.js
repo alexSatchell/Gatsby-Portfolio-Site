@@ -66,7 +66,7 @@ const Graveyard = () => {
           <Date>June 2019</Date>
           <ExternalLink
             target="_blank"
-            href="https://alexsatchell.github.io/Coffee-Roasters/"
+            href="https://alexsatchell.github.io/VisionsOfFlight-Website/"
           >
             Live Demo
           </ExternalLink>

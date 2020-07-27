@@ -6,12 +6,14 @@ import { ExternalLink } from "../components/Article/ExternalLink"
 import { Article } from "../components/Article/ArticleContainer"
 import { Paragraph } from "../components/Article/Paragraph"
 import { Image } from "../components/Article/Image"
+import GlobalStyles from "../styling/global"
 // import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 import Navigation from "../components/Article/Navigation"
 
 const Blog = () => {
   return (
     <>
+      <GlobalStyles />
       <Navigation />
       <ArticleContainer>
         <Title>Blog Coming Soon</Title>
