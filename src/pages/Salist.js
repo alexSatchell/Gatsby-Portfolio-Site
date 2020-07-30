@@ -115,7 +115,7 @@ const Salist = () => {
           </Paragraph>
           <Paragraph>That's all for now!</Paragraph>
           <Paragraph>
-            If you have any suggestions or thougts please feel free to reach
+            If you have any suggestions or thoughts please feel free to reach
             out.
           </Paragraph>
           <ExternalLink margin={"2rem 0"} href="mailto:satchellalex@gmail.com">
