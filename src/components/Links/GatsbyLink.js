@@ -36,7 +36,7 @@ export const InteralLink = styled(Link)`
     left: 0;
     right: 0;
     width: 100%;
-    height: 0.15rem;
+    height: 0.2rem;
     transform: scaleX(0);
     background-color: ${COLORS.accentBlue};
 
