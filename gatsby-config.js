@@ -18,5 +18,18 @@ module.exports = {
         fonts: [`Libre+Baskerville\:400, 700`, `Nunito\:200, 300, 400`],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/favicon.ico`,
+        icons: [
+          {
+            src: `favicons/favicon.ico`,
+            sizes: "48x48",
+            type: "image/ico",
+          },
+        ],
+      },
+    },
   ],
 }
