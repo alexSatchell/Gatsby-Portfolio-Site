@@ -12,6 +12,7 @@ import Navigation from "../components/Article/Navigation"
 import GlobalStyles from "../styling/global"
 
 import contactForm from "../images/MonthUI/contactForm.png"
+import freelancePaymentForm from "../images/MonthUI/freelancePaymentForm.png"
 
 const MonthOfCode = () => {
   return (
@@ -45,6 +46,22 @@ const MonthOfCode = () => {
             Live Demo
           </ExternalLink>
           <Image margin={"4rem 0 8rem 0"} src={contactForm} width={"100%"} />
+
+          <Paragraph>
+            <strong>Day 2 - Freelance Payment Review</strong>
+          </Paragraph>
+          <Date>08-14</Date>
+          <ExternalLink
+            target="_blank"
+            href="https://freelance-payment.netlify.app/"
+          >
+            Live Demo
+          </ExternalLink>
+          <Image
+            margin={"4rem 0 8rem 0"}
+            src={freelancePaymentForm}
+            width={"100%"}
+          />
         </ArticleContainer>
       </ArticleContainer>
     </>
