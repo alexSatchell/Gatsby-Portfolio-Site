@@ -8,6 +8,7 @@ import { Paragraph } from "../components/Article/Paragraph"
 import { Image } from "../components/Article/Image"
 import Navigation from "../components/Article/Navigation"
 import GlobalStyles from "../styling/global"
+import { Helmet } from "react-helmet"
 
 import dangerMeme from "../images/dangerMeme.jpg"
 import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
@@ -19,6 +20,14 @@ const Asteroids = () => {
       <GlobalStyles />
       <Navigation />
       <ArticleContainer>
+        <Helmet>
+          <title>Alex Satchell | Asteroids</title>
+          <meta name="title" content="30 Days of UI" />
+          <meta
+            property="og:title"
+            content="Alexander Satchell | Front End Developer"
+          />
+        </Helmet>
         <Title>Asteroids</Title>
         <Date>July 2020</Date>
         <ExternalLink target="_blank" href="https://asteroidsneo.netlify.app/">

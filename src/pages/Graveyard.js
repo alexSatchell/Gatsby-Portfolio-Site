@@ -9,6 +9,7 @@ import { Image } from "../components/Article/Image"
 import GlobalStyles from "../styling/global"
 // import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 import Navigation from "../components/Article/Navigation"
+import { Helmet } from "react-helmet"
 
 import coffeeRoasters from "../images/coffeeRoasters.jpg"
 import thinkful from "../images/thinkful.png"
@@ -20,6 +21,14 @@ const Graveyard = () => {
       <GlobalStyles />
       <Navigation />
       <ArticleContainer>
+        <Helmet>
+          <title>Alex Satchell | 30 Days of UI</title>
+          <meta name="title" content="30 Days of UI" />
+          <meta
+            property="og:title"
+            content="Alexander Satchell | Front End Developer"
+          />
+        </Helmet>
         <Title>The Graveyard</Title>
         <Date>2018 - Present</Date>
         <Paragraph>

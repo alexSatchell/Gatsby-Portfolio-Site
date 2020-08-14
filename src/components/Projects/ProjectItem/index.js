@@ -9,12 +9,12 @@ import {
 } from "./styles"
 
 const ProjectItem = ({ project }) => {
-  const { name, description, date } = project
+  const { name, description, date, displayName } = project
 
   return (
     <ProjectContainer>
       <NameDateContainer>
-        <ProjectTitle to={name}>{name}</ProjectTitle>
+        <ProjectTitle to={name}>{displayName}</ProjectTitle>
         <Date>{date}</Date>
       </NameDateContainer>
       <Description>{description}</Description>

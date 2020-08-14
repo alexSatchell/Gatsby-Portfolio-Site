@@ -9,6 +9,7 @@ import { Image } from "../components/Article/Image"
 import { UnorderedList, ListItem } from "../components/Article/UnorderedList"
 import Navigation from "../components/Article/Navigation"
 import GlobalStyles from "../styling/global"
+import { Helmet } from "react-helmet"
 
 import salistBrowserImage from "../images/salist.jpg"
 import catMeme from "../images/catMeme.jpg"
@@ -20,6 +21,14 @@ const Salist = () => {
 
       <Navigation />
       <ArticleContainer>
+        <Helmet>
+          <title>Alex Satchell | Salist</title>
+          <meta name="title" content="30 Days of UI" />
+          <meta
+            property="og:title"
+            content="Alexander Satchell | Front End Developer"
+          />
+        </Helmet>
         <Title>Salist</Title>
         <Date>June 2020</Date>
         <ExternalLink target="_blank" href="https://salist.netlify.app/">
