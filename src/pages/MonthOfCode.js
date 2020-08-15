@@ -13,6 +13,7 @@ import GlobalStyles from "../styling/global"
 
 import contactForm from "../images/MonthUI/contactForm.png"
 import freelancePaymentForm from "../images/MonthUI/freelancePaymentForm.png"
+import freelanceHeader from "../images/MonthUI/freelanceHeaeder.png"
 
 const MonthOfCode = () => {
   return (
@@ -60,6 +61,22 @@ const MonthOfCode = () => {
           <Image
             margin={"4rem 0 8rem 0"}
             src={freelancePaymentForm}
+            width={"100%"}
+          />
+
+          <Paragraph>
+            <strong>Day 3 - Freelance Header Component</strong>
+          </Paragraph>
+          <Date>08-15</Date>
+          <ExternalLink
+            target="_blank"
+            href="https://freelance-header-component.netlify.app/"
+          >
+            Live Demo
+          </ExternalLink>
+          <Image
+            margin={"4rem 0 8rem 0"}
+            src={freelanceHeader}
             width={"100%"}
           />
         </ArticleContainer>
