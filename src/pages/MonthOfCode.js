@@ -84,7 +84,7 @@ const MonthOfCode = () => {
           <Paragraph>
             <strong>Day 4 - Freelance Pricing Component</strong>
           </Paragraph>
-          <Date>08-15</Date>
+          <Date>08-16</Date>
           <ExternalLink
             target="_blank"
             href="https://freelance-rateplan.netlify.app/"
