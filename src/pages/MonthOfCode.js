@@ -14,6 +14,7 @@ import GlobalStyles from "../styling/global"
 import contactForm from "../images/MonthUI/contactForm.png"
 import freelancePaymentForm from "../images/MonthUI/freelancePaymentForm.png"
 import freelanceHeader from "../images/MonthUI/freelanceHeaeder.png"
+import freelancePricing from "../images/MonthUI/freelance-pricing.png"
 
 const MonthOfCode = () => {
   return (
@@ -77,6 +78,22 @@ const MonthOfCode = () => {
           <Image
             margin={"4rem 0 8rem 0"}
             src={freelanceHeader}
+            width={"100%"}
+          />
+
+          <Paragraph>
+            <strong>Day 4 - Freelance Pricing Component</strong>
+          </Paragraph>
+          <Date>08-15</Date>
+          <ExternalLink
+            target="_blank"
+            href="https://freelance-rateplan.netlify.app/"
+          >
+            Live Demo
+          </ExternalLink>
+          <Image
+            margin={"4rem 0 8rem 0"}
+            src={freelancePricing}
             width={"100%"}
           />
         </ArticleContainer>
