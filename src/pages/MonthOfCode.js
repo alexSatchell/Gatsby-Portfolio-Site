@@ -15,6 +15,7 @@ import contactForm from "../images/MonthUI/contactForm.png"
 import freelancePaymentForm from "../images/MonthUI/freelancePaymentForm.png"
 import freelanceHeader from "../images/MonthUI/freelanceHeaeder.png"
 import freelancePricing from "../images/MonthUI/freelance-pricing.png"
+import aliveHero from "../images/MonthUI/AliveHero.png"
 
 const MonthOfCode = () => {
   return (
@@ -96,6 +97,17 @@ const MonthOfCode = () => {
             src={freelancePricing}
             width={"100%"}
           />
+          <Paragraph>
+            <strong>Day 5 - Church Hero Section</strong>
+          </Paragraph>
+          <Date>08-17</Date>
+          <ExternalLink
+            target="_blank"
+            href="https://church-hero-section.netlify.app/"
+          >
+            Live Demo
+          </ExternalLink>
+          <Image margin={"4rem 0 8rem 0"} src={aliveHero} width={"100%"} />
         </ArticleContainer>
       </ArticleContainer>
     </>
