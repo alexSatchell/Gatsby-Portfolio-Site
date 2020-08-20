@@ -6,16 +6,16 @@ import { v4 as uuidv4 } from "uuid"
 const ProjectState = props => {
   const initialState = {
     projects: [
-      {
-        id: uuidv4(),
-        name: "MonthOfCode",
-        displayName: "30 Days of UI",
-        description: "Updated daily with high quality UI Elements",
-        date: "August 2020",
-        githubUrl: "",
-        photo: "",
-        techStack: ["React", "Node", "Express", "MongoDB"],
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "MonthOfCode",
+      //   displayName: "30 Days of UI",
+      //   description: "Updated daily with high quality UI Elements",
+      //   date: "August 2020",
+      //   githubUrl: "",
+      //   photo: "",
+      //   techStack: ["React", "Node", "Express", "MongoDB"],
+      // },
       {
         id: uuidv4(),
         name: "Asteroids",
