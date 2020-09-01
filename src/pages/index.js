@@ -38,7 +38,7 @@ export default function Home() {
     <ProjectState>
       <Layout>
         <Helmet>
-          <title>Alexander Satchell | Frontend Developer</title>
+          <title>Alexander Satchell | Front End Developer</title>
           <meta
             name="title"
             content="Alexander Satchell | Front End Developer"
