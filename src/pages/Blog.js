@@ -19,8 +19,8 @@ const Blog = () => {
         <Title>Blog Coming Soon</Title>
         <Date>July 25th, 2020</Date>
         <Paragraph>
-          Thank you for you're intrest in my blog! I promise to have this
-          portion of the site updated soon enough.
+          Thank you for your interest in my blog! I promise to have this portion
+          of the site updated soon enough.
         </Paragraph>
         <Article></Article>
       </ArticleContainer>
