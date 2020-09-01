@@ -22,7 +22,7 @@ const Salist = () => {
       <Navigation />
       <ArticleContainer>
         <Helmet>
-          <title>Alex Satchell | Salist</title>
+          <title>Alexander Satchell | Salist</title>
           <meta name="title" content="30 Days of UI" />
           <meta
             property="og:title"

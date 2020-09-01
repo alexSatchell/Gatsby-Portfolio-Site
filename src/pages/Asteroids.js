@@ -21,7 +21,7 @@ const Asteroids = () => {
       <Navigation />
       <ArticleContainer>
         <Helmet>
-          <title>Alex Satchell | Asteroids</title>
+          <title>Alexander Satchell | Asteroids</title>
           <meta name="title" content="30 Days of UI" />
           <meta
             property="og:title"
