@@ -22,7 +22,7 @@ const Graveyard = () => {
       <Navigation />
       <ArticleContainer>
         <Helmet>
-          <title>Alex Satchell | 30 Days of UI</title>
+          <title>Alexander Satchell | 30 Days of UI</title>
           <meta name="title" content="30 Days of UI" />
           <meta
             property="og:title"
